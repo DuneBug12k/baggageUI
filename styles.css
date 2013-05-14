@@ -1,0 +1,113 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #CCC;
+	text-align: center;
+}
+
+#head {
+	
+}
+
+#players, #teams  {
+	background-color: white;
+	margin: auto;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 15px;
+	display: inline-block;
+	font-family: Arial;
+}
+
+
+#teams {
+	width: 70%;
+	min-width: 500px;
+	min-height: 500px;
+}
+
+#players {
+	min-width: 200px;
+	width: 25%;
+	min-height: 500px;
+	float: right;
+}
+
+#players > h1, #teams > h1 {
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 1px solid #333333;
+}
+
+div.box {
+	margin: 5px;
+	padding: 10px;
+	font-family: Arial;
+	background-color: white;
+	cursor: pointer;
+	display: inline-block;
+	
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	width: 90%;
+}
+div.team {
+	min-width: 600px;	
+	border: 1px solid #000;
+}
+
+.candrop {
+	
+}
+
+.player {
+	font-weight: bold;
+}
+
+.team h1 {
+	font-size: 14px;
+	border-bottom: 1px solid #CCCCCC;
+	margin: 0 -10px 0 -10px;
+}
+
+
+div.player:nth-child(1) { 
+	padding-right: 10px;
+}
+
+.boxbg_1 {
+	background-color: LightBlue;
+}
+
+.boxbg_2 {
+	background-color: #D33650; /* darkred */
+}
+
+.boxbg_3 {
+	background-color: #36D37F; /* greenish */
+}
+
+.boxbg_4 {
+	background-color: #CE36D3; /* purple */
+}
+
+.boxbg_5 {
+	background-color: #9E73D7; /*blue/purple */
+}
+
+.guy {
+	color: blue;
+}
+
+.girl {
+	color: pink;
+}
+
+.ui-state-highlight {
+	border: 1px solid #FF2222 !important;
+}
+
+.ui-draggable-dragging {
+	width: 70% !important;
+	height: 70% !important;
+}
